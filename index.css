@@ -1,0 +1,88 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #212121;
+    color: white;
+}
+
+.pg_container, .num_container{
+    display: flex;
+    justify-content: center;
+}
+.previous{
+    background-color: #333;
+    padding: 1rem;
+    margin: 0 0.1rem;
+}
+.next{
+    background-color: #333;
+    padding: 1rem;
+    margin: 0 0.1rem;
+}
+.num{
+    padding: 1rem;
+    background-color: #333;
+    margin: 0 0.1rem;
+    cursor: pointer;
+}
+
+.card1 {
+    display: flex;
+    background-color: #333;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin-top: 1rem;
+}
+
+.hero {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 400%;
+    height: 45%;
+    background-color: white;
+    color: black;
+}
+
+.container {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+img {
+    height: 100%;
+}
+
+.left {
+    width: 20rem;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.status {
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.name{
+    margin-bottom: 0px;
+}
+
+span {
+    font-size: 2rem;
+}
+.label{
+    color: grey;
+    margin-top: 0.5rem;
+}
+
+@media only screen and (max-width: 993px) {
+    .col-md-6 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
